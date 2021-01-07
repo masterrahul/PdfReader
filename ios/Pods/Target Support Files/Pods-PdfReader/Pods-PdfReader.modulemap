@@ -1,0 +1,6 @@
+module Pods_PdfReader {
+  umbrella header "Pods-PdfReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

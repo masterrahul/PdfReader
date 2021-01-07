@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PdfReader.iml" filepath="$PROJECT_DIR$/.idea/modules/PdfReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335369590/PdfReader.@react-native-community_progress-bar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-335369590/PdfReader.@react-native-community_progress-bar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1201330480/PdfReader.@react-native-community_progress-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1201330480/PdfReader.@react-native-community_progress-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PdfReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PdfReader.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335369590/PdfReader.react-native-community_progress-bar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-335369590/PdfReader.react-native-community_progress-bar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1201330480/PdfReader.react-native-community_progress-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1201330480/PdfReader.react-native-community_progress-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-651396606/PdfReader.react-native-file-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/-651396606/PdfReader.react-native-file-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-953893330/PdfReader.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/-953893330/PdfReader.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1888938127/PdfReader.react-native-pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/-1888938127/PdfReader.react-native-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1820746348/PdfReader.react-native-print.iml" filepath="$PROJECT_DIR$/.idea/modules/1820746348/PdfReader.react-native-print.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-912344271/PdfReader.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-912344271/PdfReader.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1755742202/PdfReader.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/1755742202/PdfReader.rn-fetch-blob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1003181810/PdfReader.rn-pdf-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/-1003181810/PdfReader.rn-pdf-generator.iml" />
+    </modules>
+  </component>
+</project>

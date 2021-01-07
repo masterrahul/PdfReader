@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pdfreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/arindersuri/Desktop/PdfReader/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/arindersuri/Desktop/PdfReader/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:5:4-78
+13-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:5:21-75
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:6:4-79
+14-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:6:21-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:7:4-80
+15-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:7:21-77
+16    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+16-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:8:4-87
+16-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:8:21-84
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+17-->[com.facebook.flipper:flipper:0.54.0] /Users/arindersuri/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.54.0] /Users/arindersuri/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+18-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+18-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+19    <!--
+20         Required to keep CPU alive while downloading files
+21        (NOT to keep screen awake)
+22    -->
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+23-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+24
+25    <application
+25-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:9:5-29:19
+26        android:name="com.pdfreader.MainApplication"
+26-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:10:7-38
+27        android:allowBackup="false"
+27-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:14:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.1] /Users/arindersuri/.gradle/caches/transforms-2/files-2.1/4f3e3536c8bf9e8cb1939d2a5eeaba3a/core-1.3.1/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:12:7-41
+31        android:label="@string/app_name"
+31-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:11:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:13:7-52
+33        android:theme="@style/AppTheme"
+33-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:15:7-38
+34        android:usesCleartextTraffic="true" >
+34-->/Users/arindersuri/Desktop/PdfReader/android/app/src/debug/AndroidManifest.xml:7:18-53
+35        <activity
+35-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:16:7-27:18
+36            android:name="com.pdfreader.MainActivity"
+36-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:17:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:19:9-86
+38            android:label="@string/app_name"
+38-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:18:9-41
+39            android:launchMode="singleTask"
+39-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:20:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:21:9-51
+41            <intent-filter>
+41-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:22:9-26:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:23:13-65
+42-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:23:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:24:13-73
+44-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:24:23-70
+45
+46                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+46-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:25:13-77
+46-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:25:21-75
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:28:7-84
+49-->/Users/arindersuri/Desktop/PdfReader/android/app/src/main/AndroidManifest.xml:28:17-81
+50
+51        <provider
+51-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+52            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+52-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-75
+53            android:authorities="com.pdfreader.provider"
+53-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-60
+54            android:exported="false"
+54-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+55            android:grantUriPermissions="true" >
+55-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+56            <meta-data
+56-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+58                android:resource="@xml/file_viewer_provider_paths" />
+58-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+59        </provider>
+60        <provider
+60-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+61            android:name="com.RNFetchBlob.Utils.FileProvider"
+61-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+62            android:authorities="com.pdfreader.provider"
+62-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+63            android:exported="false"
+63-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+64            android:grantUriPermissions="true" >
+64-->[:rn-fetch-blob] /Users/arindersuri/Desktop/PdfReader/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+65            <meta-data
+65-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+67                android:resource="@xml/provider_paths" />
+67-->[:react-native-file-viewer] /Users/arindersuri/Desktop/PdfReader/node_modules/react-native-file-viewer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+68        </provider>
+69    </application>
+70
+71</manifest>
